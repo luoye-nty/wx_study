@@ -1,0 +1,5 @@
+<!--pages/study/study.wxml-->
+<button bindtap='houduanButton'>点击</button>
+<view wx:for="{{list}}" wx:key="key">
+  id={{item.id}}
+</view>

@@ -1,0 +1,7 @@
+<!--pages/map/mapTest.wxml-->
+<view>
+	<map latitude="{{latitude}}" longitude="{{longitude}}"></map>
+  <map scale="16" markers="{{markers}}" show-location style="width: 100%; height: 400px;"></map>
+
+  <text>time:{{time}}</text>
+</view>
